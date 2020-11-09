@@ -1,7 +1,7 @@
 const feladatModule = require('./Feladat8');
 
-const testArr = [];
-const testArr2 = [];
+let testArr = [];
+let testArr2 = [];
 const testObject = [
   {
     name: 'Feri',
@@ -102,8 +102,16 @@ console.log(feladatModule.osszead(2, 4));
 console.log(feladatModule.szorzas(2, 4));
 console.log(feladatModule.hatvany(2, 4));
 
+// tesztek
 console.log('-------------------tesztek-------------------');
 const makeTestArr = (n) => {
+  const arr = [];
+  for (let i = 0; i < n; i++) {
+    arr[i] = Math.floor((Math.random() * 10) + 1);
+  }
+  return arr;
+};
+testArr = makeTestArr(5);
+testArr2 = makeTestArr(5);
 
-}
-;
+console.log(testArr2, testArr);
