@@ -1,7 +1,7 @@
 const feladatModule = require('./Feladat8');
 
-const testArr = [1, 2, 3, 4, 5];
-const testArr2 = [4, 5, 6, 7, 8];
+const testArr = [];
+const testArr2 = [];
 const testObject = [
   {
     name: 'Feri',
@@ -40,6 +40,17 @@ b = 2;
 b = 3;
 
 // -------------------3-------------------
+// referencia szerint globális változókat adunk át, míg értéknél nem
+// referencia:
+let abc = 3;
+const valtozas = () => {
+  return abc += 1;
+};
+const valtozas2 = (a) => {
+  return a + 2;
+};
+console.log('-------------------2-------------------');
+console.log(valtozas(), valtozas2(abc));
 
 // -------------------4-------------------
 const containsElement = (arr, num) => {
@@ -90,3 +101,9 @@ console.log('-------------------8-------------------');
 console.log(feladatModule.osszead(2, 4));
 console.log(feladatModule.szorzas(2, 4));
 console.log(feladatModule.hatvany(2, 4));
+
+console.log('-------------------tesztek-------------------');
+const makeTestArr = (n) => {
+
+}
+;
