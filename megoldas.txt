@@ -1,7 +1,0 @@
-mkdir szakaszzaro
-touch szakaszzaro_feladat
-echo "Hello" > szakaszzaro_feladat
-mv szakaszzaro_feladat feladat
-cp feladat feladat2
-rm feladat2
-cat /var/log/syslog | grep 'NetworkManager' > feladat
