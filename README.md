@@ -1,1 +1,1 @@
-# terhes_zoran
+a feladatok a hozzájuk rendelt branch-ekben találhatóak
