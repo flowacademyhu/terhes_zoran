@@ -1,1 +1,1 @@
-a feladatok a hozzájuk rendelt branch-ekben találhatóak
+#a feladatok a hozzájuk rendelt branch-ekben találhatóak
